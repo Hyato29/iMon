@@ -1,3 +1,1 @@
-# Ayaato
-
-Aplikasi management keuangan 
+# iMon
