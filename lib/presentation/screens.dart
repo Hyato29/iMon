@@ -1,0 +1,9 @@
+export 'package:ngitengs/presentation/dana_darurat/dana_darurat.screen.dart';
+export 'package:ngitengs/presentation/dana_pensiun/dana_pensiun.screen.dart';
+export 'package:ngitengs/presentation/home/home.screen.dart';
+export 'package:ngitengs/presentation/kalkulator/kalkulator.screen.dart';
+export 'package:ngitengs/presentation/login/login.screen.dart';
+export 'package:ngitengs/presentation/profil/profil.screen.dart';
+export 'package:ngitengs/presentation/register/register.screen.dart';
+export 'package:ngitengs/presentation/statistic/statistic.screen.dart';
+export 'package:ngitengs/presentation/wistlist/wistlist.screen.dart';
