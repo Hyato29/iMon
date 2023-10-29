@@ -22,8 +22,8 @@ class HomeScreen extends GetView<HomeController> {
           child: Column(
             children: [
               MenuTile(textTitle: "Akun", iconLeading: Icons.person),
-              MenuTile(textTitle: "Setting", iconLeading: Icons.settings),
               MenuTile(textTitle: "Home", iconLeading: Icons.home),
+              MenuTile(textTitle: "Setting", iconLeading: Icons.settings),
             ],
           ),
         ),
@@ -352,7 +352,7 @@ class HomeScreen extends GetView<HomeController> {
                                 dateCard: "Brand : ${product.brand}",
                                 priceCard: "\$ ${product.price.toString()}",
                                 color: Colors.red,
-                                iconCard: Svg("assets/icons/shop.svg",
+                                iconCard: const Svg("assets/icons/shop.svg",
                                     color: Color(0xffC1C9D1)));
                           },
                         )))
@@ -366,7 +366,9 @@ class HomeScreen extends GetView<HomeController> {
 
   AppBar appBar() {
     return AppBar(
-      backgroundColor: Color.fromARGB(255, 188, 178, 178),
+      iconTheme: IconThemeData(color: Colors.black),
+      elevation: 0.5,
+      backgroundColor: const Color(0xFFFAFAFA),
       title: const Center(
         child: Text(
           "Home",
